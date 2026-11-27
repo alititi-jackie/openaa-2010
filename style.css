@@ -1,0 +1,1515 @@
+/*html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }*//*激活此代码可令网站首页为黑白色*/
+BODY {
+	BACKGROUND: #fff; FONT: 62.5%/1.5 Verdana, Geneva, sans-serif; COLOR: #666;
+}
+#container {
+	FONT-SIZE: 1em
+}
+#searchbtn/*定义首页搜索按钮样式属性*/ {
+    background-color:#ffffff; border: double; border-color: #006699; font-size:12px; color:#777777;  
+}
+BODY.zine H2 {
+	COLOR: #505050
+}
+BODY.dict H2 {
+	COLOR: #A44345
+}
+BODY.gift H2 {
+	COLOR: #E55A28
+}
+BODY.bbs H2 {
+	COLOR: #c9c9c9
+}
+BODY.zine H3 {
+	COLOR: #505050
+}
+BODY.dict H3 {
+	COLOR: #A44345
+}
+BODY.gift H3 {
+	COLOR: #E55A28
+}
+BODY.bbs H3 {
+	COLOR: #c9c9c9
+}
+H2.grey {
+	COLOR: #666! important
+}
+A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+#skipLink {
+	DISPLAY: none
+}
+LI#navZine A:link {
+	COLOR: #505050
+}
+LI#navZine A:visited {
+	COLOR: #505050
+}
+LI#navDict A:link {
+	COLOR: #A44345
+}
+LI#navDict A:visited {
+	COLOR: #A44345
+}
+LI#navGift A:link {
+	COLOR: #E55A28
+}
+LI#navGift A:visited {
+	COLOR: #E55A28
+}
+LI#navBbs A:link {
+	COLOR: #c9c9c9
+}
+LI#navBbs A:visited {
+	COLOR: #c9c9c9
+}
+DIV#masthead UL#nav LI LI A:link {
+	COLOR: #666
+}
+DIV#masthead UL#nav LI LI A:visited {
+	COLOR: #666
+}
+DIV#masthead UL#nav LI LI A:hover {
+	COLOR: #000
+}
+DIV#masthead UL#nav LI LI.selected A:link {
+	COLOR: #000
+}
+DIV#masthead UL#nav LI LI.selected A:visited {
+	COLOR: #000
+}
+DIV#utility UL A:link {
+	COLOR: #666
+}
+DIV#utility UL A:visited {
+	COLOR: #666
+}
+DIV#utility UL A:hover {
+	COLOR: #000
+}
+DIV#utility UL LI.selected A {
+	COLOR: #000
+}
+DIV#mainContent UL.sidenav LI {
+	COLOR: #666
+}
+DIV#mainContent UL.sidenav LI {
+	COLOR: #666
+}
+DIV#mainContent UL#sidenav LI {
+	COLOR: #666
+}
+DIV#mainContent UL#sidenav LI {
+	COLOR: #666
+}
+DIV#mainContent UL.sidenav A:link {
+	COLOR: #666
+}
+DIV#mainContent UL.sidenav A:visited {
+	COLOR: #666
+}
+DIV#mainContent UL#sidenav A:link {
+	COLOR: #666
+}
+DIV#mainContent UL#sidenav A:visited {
+	COLOR: #666
+}
+DIV#mainContent UL.sidenav A:hover {
+	COLOR: #000
+}
+DIV#mainContent UL.sidenav LI.selected A:link {
+	COLOR: #000
+}
+DIV#mainContent UL.sidenav LI.selected A:visited {
+	COLOR: #000
+}
+DIV#mainContent UL#sidenav A:hover {
+	COLOR: #000
+}
+DIV#mainContent UL#sidenav LI.selected A:link {
+	COLOR: #000
+}
+DIV#mainContent UL#sidenav LI.selected A:visited {
+	COLOR: #000
+}
+DIV#sideContent UL.sidenav A:link {
+	COLOR: #666
+}
+DIV#sideContent UL.sidenav A:visited {
+	COLOR: #666
+}
+DIV#sideContent UL#sidenav A:link {
+	COLOR: #666
+}
+DIV#sideContent UL#sidenav A:visited {
+	COLOR: #666
+}
+DIV#sideContent UL.sidenav A:hover {
+	COLOR: #000
+}
+DIV#sideContent UL.sidenav LI.selected A:link {
+	COLOR: #000
+}
+DIV#sideContent UL.sidenav LI.selected A:visited {
+	COLOR: #000
+}
+DIV#sideContent UL#sidenav A:hover {
+	COLOR: #000
+}
+DIV#sideContent UL#sidenav LI.selected A:link {
+	COLOR: #000
+}
+DIV#sideContent UL#sidenav LI.selected A:visited {
+	COLOR: #000
+}
+BODY.zine A:link {
+	COLOR: #505050
+}
+BODY.zine A:visited {
+	COLOR: #505050
+}
+DL#newszine A:link {
+	COLOR: #505050
+}
+DL#newszine A:visited {
+	COLOR: #505050
+}
+BODY.dict A:link {
+	COLOR: #A44345
+}
+BODY.dict A:visited {
+	COLOR: #A44345
+}
+DL#newsdict A:link {
+	COLOR: #A44345
+}
+DL#newsdict A:visited {
+	COLOR: #A44345
+}
+BODY.gift A:link {
+	COLOR: #E55A28
+}
+BODY.gift A:visited {
+	COLOR: #E55A28
+}
+DL#newsPart A:link {
+	COLOR: #E55A28
+}
+DL#newsPart A:visited {
+	COLOR: #E55A28
+}
+BODY.bbs A:link {
+	COLOR: #c9c9c9
+}
+BODY.bbs A:visited {
+	COLOR: #c9c9c9
+}
+DL#newsChild A:link {
+	COLOR: #c9c9c9
+}
+DL#newsChild A:visited {
+	COLOR: #c9c9c9
+}
+BODY.news DIV#content DL.newsCol A:hover {
+	COLOR: #666
+}
+DIV#container {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; WIDTH: 900px; PADDING-TOP: 0px
+}
+DIV#masthead {
+	MIN-HEIGHT: 200px; OVERFLOW: hidden
+}
+BODY#home DIV#masthead {
+	MIN-HEIGHT: 0px
+}
+DIV#content {
+	OVERFLOW: hidden; WIDTH: 945px; BACKGROUND-COLOR: #fff
+}
+BODY.threeCol DIV#content {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/bg-content-threecols.gif) repeat-y 0px 0px
+}
+BODY.twoCol DIV#content {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/bg-content-twocols.gif) repeat-y 0px 0px
+}
+BODY.twoColAlt DIV#content {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/bg-content-twocols-alt.gif) repeat-y 0px 0px
+}
+DIV#footer {
+	FONT-SIZE: 1.2em; MARGIN: 30px 0px 25px; COLOR: #666
+}
+DIV#footer A:hover {
+	COLOR: #666
+}
+DIV#masthead H1/*开呐定制*/ {
+	FONT-SIZE: 1em; FLOAT: inherit; OVERFLOW: hidden; WIDTH: 274px; POSITION: relative; HEIGHT: 117px
+}
+DIV#masthead H1 A {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+DIV#masthead H1 I {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+/*DIV#masthead H1 I {
+	MARGIN-TOP: 1px; BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/olpc-logo.gif) no-repeat 0px 0px; LEFT: 1px; CURSOR: pointer; POSITION: absolute; TOP: -1px
+}*/
+BODY#home DIV#masthead H2 {
+	FONT-SIZE: 3em; FLOAT: left; MARGIN-LEFT: 53px; OVERFLOW: hidden; WIDTH: 681px; COLOR: #A44345; LETTER-SPACING: -1px; POSITION: relative; HEIGHT: 57px
+}
+BODY#home DIV#masthead H2 A {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+BODY#home DIV#masthead H2 I {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+BODY#home DIV#masthead H2 I {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/h2-home-g1g1.gif) no-repeat 0px 0px; LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+BODY#home DIV#masthead IMG {
+	FLOAT: left; MARGIN: 11px 0px 0px 52px
+}
+FORM#subscribe {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 681px; PADDING-TOP: 0px
+}
+FORM#subscribe FIELDSET {
+	MARGIN-TOP: 4px; WIDTH: 681px
+}
+FORM#subscribe INPUT#email {
+	BORDER-RIGHT: #E55A28 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #E55A28 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #E55A28 1px solid; WIDTH: 270px; COLOR: #999; MARGIN-RIGHT: 7px; PADDING-TOP: 2px; BORDER-BOTTOM: #E55A28 1px solid; HEIGHT: 1.5em
+}
+BUTTON#subscribeSubmit {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.9em; BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-subscribe-.gif) #fff no-repeat 0px 50%; FLOAT: left; PADDING-BOTTOM: 6px; MARGIN: 0px; WIDTH: 82px; CURSOR: pointer; COLOR: #fff; BORDER-TOP-STYLE: none; LINE-HEIGHT: 1.8; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 2em; TEXT-ALIGN: center; BORDER-BOTTOM-STYLE: none
+}
+.zine FORM#subscribe INPUT#email {
+	BORDER-RIGHT: #505050 1px solid; BORDER-TOP: #505050 1px solid; BORDER-LEFT: #505050 1px solid; BORDER-BOTTOM: #505050 1px solid
+}
+.zine BUTTON#subscribeSubmit {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-zine-subscribe.gif) #fff no-repeat 0px 50%
+}
+BODY#home #slogan {
+	MARGIN: 18px 0px 0px 143px; WIDTH: 686px
+}
+BODY#home #slogan H2 {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/slogan.gif) no-repeat 0px 0px; FLOAT: left; TEXT-INDENT: -9999px; POSITION: relative; HEIGHT: 105px
+}
+BODY#home #slogan H2#give {
+	BACKGROUND-POSITION: 0px 0px; MARGIN-LEFT: 0px; WIDTH: 210px
+}
+BODY#home #slogan H2#change {
+	BACKGROUND-POSITION: -412px 0px; MARGIN-LEFT: 0px; WIDTH: 274px
+}
+BODY#home UL#nav/*整个导航的背景图片及定位*/ {
+	BACKGROUND: url(images/openaaindex.png) no-repeat 0px 0px; MARGIN: 43px 0px 0px 143px; OVERFLOW: hidden; WIDTH: 800px
+}
+BODY#home UL#nav LI {
+	FLOAT: left; MARGIN-LEFT: 5px; WIDTH: 170px; POSITION: relative; HEIGHT: 198px
+}
+BODY#home UL#nav LI#navDict {
+	WIDTH: 170px
+}
+BODY#home UL#nav LI#navBbs {
+	WIDTH: 170px
+}
+BODY#home UL#nav LI A {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+BODY#home UL#nav LI I {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+BODY#home UL#nav LI I {
+	BACKGROUND: url(images/openaaindex.png) no-repeat 0px 0px; LEFT: 0px; CURSOR: pointer; POSITION: absolute; TOP: 0px
+}
+BODY#home UL#nav LI#navZine I {
+	BACKGROUND-POSITION: 0 -600px
+}
+BODY#home UL#nav LI#navDict I {
+	BACKGROUND-POSITION: -728px -600px
+}
+BODY#home UL#nav LI#navGift I {
+	BACKGROUND-POSITION: -2184px -600px
+}
+BODY#home UL#nav LI#navBbs I {
+	BACKGROUND-POSITION: -1456px -600px
+}
+BODY#home UL#nav LI#navZine A:hover I {
+	BACKGROUND-POSITION: 0 -1278px
+}
+BODY#home UL#nav LI#navDict A:hover I {
+	BACKGROUND-POSITION: -728px -1278px
+}
+BODY#home UL#nav LI#navGift A:hover I {
+	BACKGROUND-POSITION: -2184px -1278px
+}
+BODY#home UL#nav LI#navBbs A:hover I {
+	BACKGROUND-POSITION: -1456px -1278px
+}
+DIV#masthead UL#nav {
+	FLOAT: left; MARGIN: 0px 0px 0px 135px; WIDTH: 250px
+}
+DIV#masthead UL#nav LI {
+	FLOAT: left; WIDTH: 60px; POSITION: relative; HEIGHT: 90px
+}
+DIV#masthead UL#nav LI EM {
+	
+}
+DIV#masthead UL#nav LI LI {
+	
+}
+DIV#masthead UL#nav LI LI A {
+	
+}
+DIV#masthead UL#nav LI#navDict {
+	WIDTH: 70px
+}
+UL#nav LI A {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 65px
+}
+UL#nav LI I {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 65px
+}
+UL#nav I {
+	BACKGROUND: url(images/openaaindex.png) no-repeat 0px 0px; LEFT: 0px; CURSOR: pointer; POSITION: absolute; TOP: 0px
+}
+LI#navDict I {
+	BACKGROUND-POSITION: 0px -600px
+}
+LI#navGift I {
+	BACKGROUND-POSITION: -728px -600px
+}
+LI#navBbs I {
+	BACKGROUND-POSITION: -2184px -600px
+}
+LI#navZine:hover I {
+	BACKGROUND-POSITION: 0px -65px
+}
+LI#navZine A.selected I {
+	BACKGROUND-POSITION: 0px -65px
+}
+LI#navDict:hover I {
+	BACKGROUND-POSITION: -60px -65px
+}
+LI#navDict A.selected I {
+	BACKGROUND-POSITION: -60px -65px
+}
+LI#navGift:hover I {
+	BACKGROUND-POSITION: -130px -65px
+}
+LI#navGift A.selected I {
+	BACKGROUND-POSITION: -130px -65px
+}
+LI#navBbs:hover I {
+	BACKGROUND-POSITION: -190px -65px
+}
+LI#navBbs A.selected I {
+	BACKGROUND-POSITION: -190px -65px
+}
+DIV#masthead UL#nav LI EM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-SIZE: 1.4em; LEFT: -999em; PADDING-BOTTOM: 0px; PADDING-TOP: 1px; POSITION: absolute; TOP: 4.58em
+}
+DIV#masthead UL#nav LI.hide A.selected EM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FONT-SIZE: 1.4em; LEFT: -999em; PADDING-BOTTOM: 0px; PADDING-TOP: 1px; POSITION: absolute; TOP: 4.58em
+}
+DIV#masthead UL#nav LI:hover EM {
+	LEFT: 5px
+}
+DIV#masthead UL#nav LI A.selected EM {
+	LEFT: 5px
+}
+DIV#masthead UL#nav LI:hover A.selected EM {
+	LEFT: 5px
+}
+DIV#masthead UL#nav UL {
+	LEFT: -999em; POSITION: absolute; TOP: 8.6em
+}
+DIV#masthead UL#nav LI.hide UL.selected {
+	LEFT: -999em; POSITION: absolute; TOP: 8.6em
+}
+DIV#masthead UL#nav LI:hover UL {
+	LEFT: 5px
+}
+DIV#masthead UL#nav LI UL.selected {
+	LEFT: 5px
+}
+DIV#masthead UL#nav LI.hide:hover UL.selected {
+	LEFT: 5px
+}
+DIV#masthead UL#nav LI LI {
+	MARGIN-TOP: -2px; FONT-SIZE: 14px; FLOAT: none; WIDTH: auto; WHITE-SPACE: nowrap; HEIGHT: auto
+}
+DIV#masthead UL#nav LI LI A {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+DIV#masthead UL#nav LI#navZine:hover EM {
+	LEFT: 12px
+}
+DIV#masthead UL#nav LI#navZine A.selected EM {
+	LEFT: 12px
+}
+DIV#masthead UL#nav LI#navZine:hover A.selected EM {
+	LEFT: 12px
+}
+DIV#masthead UL#nav LI#navZine:hover UL {
+	LEFT: 12px
+}
+DIV#masthead UL#nav LI#navZine UL.selected {
+	LEFT: 12px
+}
+DIV#masthead UL#nav LI.hide#navZine:hover UL.selected {
+	LEFT: 12px
+}
+DIV#masthead UL#nav LI#navGift:hover EM {
+	LEFT: 0px
+}
+DIV#masthead UL#nav LI#navGift A.selected EM {
+	LEFT: 0px
+}
+DIV#masthead UL#nav LI#navGift:hover A.selected EM {
+	LEFT: 0px
+}
+DIV#masthead UL#nav LI#navGift:hover UL {
+	LEFT: 0px
+}
+DIV#masthead UL#nav LI#navGift UL.selected {
+	LEFT: 0px
+}
+DIV#masthead UL#nav LI.hide#navGift:hover UL.selected {
+	LEFT: 0px
+}
+DIV#utility {
+	MARGIN-TOP: 11px; FLOAT: right; WIDTH: 222px
+}
+DIV#utility UL {
+	MARGIN-TOP: 11px; FONT-SIZE: 1.3em; FLOAT: left; WIDTH: 50%; LINE-HEIGHT: 1.3em
+}
+DIV#utility UL LI {
+	MARGIN-BOTTOM: 2px
+}
+DIV#utility A#g1g1Button {
+	DISPLAY: block; FLOAT: left; WIDTH: 184px; MARGIN-RIGHT: 10px; POSITION: relative; HEIGHT: 24px
+}
+DIV#utility A#g1g1Button I {
+	DISPLAY: block; BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-g1g1.gif) no-repeat 0px 0px; LEFT: 0px; WIDTH: 100%; CURSOR: pointer; POSITION: absolute; TOP: 0px; HEIGHT: 100%
+}
+BODY.twoCol DIV#mainContent {
+	FLOAT: left; WIDTH: 222px; MARGIN-RIGHT: 20px
+}
+BODY.twoCol DIV#secContent {
+	FLOAT: left; WIDTH: 703px
+}
+BODY.landingPage DIV#mainContent {
+	FLOAT: left; WIDTH: 220px; MARGIN-RIGHT: 21px
+}
+BODY.landingPage DIV#secContent {
+	FLOAT: left; WIDTH: 462px; MARGIN-RIGHT: 20px
+}
+BODY.landingPage DIV#sideContent {
+	FLOAT: left; WIDTH: 222px
+}
+BODY.generic DIV#mainContent {
+	FONT-SIZE: 1.4em; FLOAT: left; MARGIN: -4px 20px 0px 243px; WIDTH: 460px; LINE-HEIGHT: 1.7
+}
+BODY.generic DIV#secContent {
+	FONT-SIZE: 1.2em; FLOAT: left; MARGIN-LEFT: -723px; WIDTH: 223px; LINE-HEIGHT: 1.6
+}
+BODY.generic DIV#sideContent {
+	FLOAT: left; WIDTH: 222px
+}
+BODY.twoColAlt DIV#mainContent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 20px; WIDTH: 703px; PADDING-TOP: 0px
+}
+BODY.twoColAlt DIV#secContent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 222px; PADDING-TOP: 0px
+}
+BODY.landingPage DIV.overview {
+	FONT-SIZE: 1.4em; LINE-HEIGHT: 1.7
+}
+BODY.landingPage DIV.overview P {
+	MARGIN-BOTTOM: 1.5em
+}
+BODY.zine DIV.overview {
+	COLOR: #505050
+}
+BODY.zine DIV.overview P {
+	COLOR: #505050
+}
+BODY.dict DIV.overview {
+	COLOR: #A44345
+}
+BODY.dict DIV.overview P {
+	COLOR: #A44345
+}
+BODY.gift DIV.overview {
+	COLOR: #E55A28
+}
+BODY.gift DIV.overview P {
+	COLOR: #E55A28
+}
+BODY.bbs DIV.overview {
+	COLOR: #c9c9c9
+}
+BODY.bbs DIV.overview P {
+	COLOR: #c9c9c9
+}
+DIV#secContent DIV#video {
+	MARGIN-BOTTOM: 0.5em
+}
+DIV#secContent P.caption {
+	FONT-SIZE: 1.2em; MARGIN-BOTTOM: 2em
+}
+DIV#secContent P.caption-med {
+	FONT-SIZE: 1em; MARGIN-BOTTOM: 30px
+}
+DIV#mainContent P.caption {
+	FONT-SIZE: 0.9em; MARGIN-BOTTOM: 1em
+}
+DIV#secContent A:hover {
+	COLOR: #666; TEXT-DECORATION: none! important
+}
+DIV#mainContent A:hover {
+	COLOR: #666; TEXT-DECORATION: none! important
+}
+DIV#sideContent A:hover {
+	COLOR: #666; TEXT-DECORATION: none! important
+}
+DIV#mainContent P {
+	LINE-HEIGHT: 1.7em
+}
+DIV#mainContent DIV.person {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 8px; WIDTH: 454px
+}
+DIV#mainContent DIV.person IMG.thumb {
+	FLOAT: left; MARGIN-RIGHT: 20px
+}
+DIV#mainContent DIV.info {
+	FLOAT: right; WIDTH: 290px
+}
+DIV#mainContent DIV.info H2 {
+	MARGIN-TOP: -0.5em
+}
+DIV#mainContent P.desc {
+	
+}
+DIV#mainContent EM.title {
+	FONT-STYLE: italic
+}
+UL#vert-spaced LI {
+	MARGIN-BOTTOM: 9px
+}
+DIV.year-year {
+	FLOAT: left; WIDTH: 158px
+}
+DIV.year-content {
+	FONT-SIZE: 0.9em; FLOAT: right; WIDTH: 298px
+}
+DIV.year H3 {
+	
+}
+P.lightbox-caption {
+	MARGIN-LEFT: 2px
+}
+BODY.landingPage DIV#sideContent {
+	FONT-SIZE: 1.2em; LINE-HEIGHT: 1.55
+}
+DL#newsblurbs DT {
+	COLOR: #666
+}
+DL#newsblurbs DD {
+	MARGIN-BOTTOM: 1.6em
+}
+DL#newszine DD {
+	MARGIN-BOTTOM: 1.6em
+}
+DL#newsdict DD {
+	MARGIN-BOTTOM: 1.6em
+}
+DL#newsPart DD {
+	MARGIN-BOTTOM: 1.6em
+}
+DL#newsChild DD {
+	MARGIN-BOTTOM: 1.6em
+}
+BODY.zine DL#newsblurbs {
+	COLOR: #505050
+}
+BODY.dict DL#newsblurbs {
+	COLOR: #A44345
+}
+BODY.gift DL#newsblurbs {
+	COLOR: #E55A28
+}
+BODY.bbs DL#newsblurbs {
+	COLOR: #c9c9c9
+}
+BODY.news DL.newsCol {
+	PADDING-RIGHT: 3px; FONT-SIZE: 1.2em; FLOAT: left; OVERFLOW-X: hidden; WIDTH: 218px; COLOR: #666; MARGIN-RIGHT: 20px; HEIGHT: 530px
+}
+BODY.news DL.lastCol {
+	MARGIN-RIGHT: 0px
+}
+BODY.news DL.newsCol DT {
+	CLEAR: left; MARGIN-RIGHT: 10px
+}
+BODY.news DL.newsCol DD P {
+	MARGIN-BOTTOM: 1.6em
+}
+DIV#mainContent DIV.prodHighlights {
+	FONT-SIZE: 1.4em; OVERFLOW: hidden; WIDTH: 703px; COLOR: #666; LINE-HEIGHT: 1.7
+}
+DIV#mainContent DIV.prodHighlights IMG {
+	FLOAT: left; WIDTH: 485px
+}
+DIV#mainContent DIV.prodHighlights H2 {
+	FLOAT: right; WIDTH: 218px
+}
+DIV#mainContent DIV.prodHighlights P {
+	FLOAT: right; WIDTH: 218px
+}
+DIV#mainContent DIV.prodHighlights H2 {
+	MARGIN: 20px 0px 0px
+}
+DIV#mainContent UL.specsList {
+	MARGIN-BOTTOM: 2em
+}
+DIV#mainContent DIV.spec UL {
+	MARGIN-BOTTOM: 2em
+}
+DIV#mainContent UL.specsList LI {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/bullet-dict-section.gif) no-repeat 0px 0.75em; TEXT-INDENT: 12px
+}
+DIV#mainContent DIV.spec UL LI {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/bullet-dict-section.gif) no-repeat 0px 0.75em; TEXT-INDENT: 12px
+}
+BODY.dict DIV#mainContent DIV.spec UL LI {
+	PADDING-LEFT: 12px; TEXT-INDENT: 0px
+}
+DIV#secContent DIV.prodImg {
+	MARGIN: 1em 0px 3em
+}
+DIV#secContent DIV.prodImg IMG {
+	MARGIN-BOTTOM: 1em
+}
+DIV#mainContent SPAN.giveLevel {
+	DISPLAY: block; MARGIN-BOTTOM: 0px; COLOR: #E55A28
+}
+DIV#secContent IMG.sugarHomeViewImage {
+	BORDER-RIGHT: #666 1px solid; BORDER-TOP: #666 1px solid; BORDER-LEFT: #666 1px solid; BORDER-BOTTOM: #666 1px solid
+}
+DL#wtg {
+	MARGIN-TOP: 3em
+}
+DL#wtg DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2.5em; MARGIN: 0px 0px 2.5em; PADDING-TOP: 0px
+}
+DL#wtg DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2.5em; MARGIN: 0px 0px 2.5em; PADDING-TOP: 0px
+}
+DL#wtg DT {
+	FLOAT: left; WIDTH: 142px; COLOR: #666
+}
+DL#wtg DD {
+	FLOAT: left; MARGIN-LEFT: 19px; WIDTH: 282px
+}
+DL#wtg DD.first {
+	HEIGHT: 130px
+}
+DL#wtg DT.last {
+	MARGIN-BOTTOM: 0px
+}
+DL#wtg DD.last {
+	MARGIN-BOTTOM: 0px
+}
+DL#wtg DD H2 {
+	FONT-SIZE: 100%; MARGIN: 0px 0px 0.5em; LINE-HEIGHT: 1; PADDING-TOP: 0px
+}
+DL#wtg DD.first H2 {
+	PADDING-TOP: 3px
+}
+UL.gtmo LI {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 1em; MARGIN: 0px 0px 1em; WIDTH: 221px; PADDING-TOP: 0px
+}
+UL.gtmo LI.lastCol {
+	PADDING-RIGHT: 0px
+}
+UL.gtmo LI.lastRow {
+	MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 0.5em
+}
+DIV#mainContent DIV.pressDate {
+	MARGIN-BOTTOM: 5px; max-width: 454px
+}
+DIV#mainContent DIV.pressHeadline {
+	MARGIN-BOTTOM: 20px; max-width: 454px
+}
+DIV#mainContent DIV.badgeImage {
+	MARGIN-BOTTOM: 5px; max-width: 454px
+}
+DIV#mainContent TEXTAREA.badgeHtml {
+	BORDER-RIGHT: #505050 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #505050 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 0.9em; MARGIN-BOTTOM: 30px; PADDING-BOTTOM: 5px; BORDER-LEFT: #505050 1px solid; WIDTH: 444px; COLOR: #333; PADDING-TOP: 5px; BORDER-BOTTOM: #505050 1px solid; FONT-FAMILY: "Courier New", Courier, mono; HEIGHT: 140px; BACKGROUND-COLOR: #fff
+}
+DIV#secContent DIV.badgeLeft {
+	MARGIN-BOTTOM: 25px
+}
+DIV#mainContent TEXTAREA.badgeGtmo {
+	BORDER-RIGHT: #E55A28 1px solid; BORDER-TOP: #E55A28 1px solid; MARGIN-BOTTOM: 0px; BORDER-LEFT: #E55A28 1px solid; WIDTH: 209px; BORDER-BOTTOM: #E55A28 1px solid
+}
+DIV#mainContent P {
+	MARGIN-BOTTOM: 20px; max-width: 454px
+}
+DIV#mainContent P.last {
+	MARGIN-BOTTOM: 0px
+}
+BODY.twoColAlt DIV#mainContent P {
+	max-width: 676px
+}
+DIV#mainContent DIV.olpcMember {
+	MARGIN-BOTTOM: 5px; max-width: 454px
+}
+DIV#mainContent DIV.olpcPartner {
+	MARGIN-BOTTOM: 20px; max-width: 454px
+}
+DIV#sideContent UL#sidenav {
+	FONT-SIZE: 1.4em; LINE-HEIGHT: 1.7; POSITION: relative; TOP: -0.25em
+}
+DIV#container DIV#content P.btn {
+	FONT-SIZE: 12px; MARGIN: 1.75em 0px 0px; WIDTH: 100px; TEXT-ALIGN: center;
+}
+DIV#container DIV#content P.lesstop {
+	MARGIN-TOP: 3px
+}
+P.btn A {
+	DISPLAY: block; PADDING-BOTTOM: 1px; COLOR: #fff! important; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.btn A:link {
+	DISPLAY: block; PADDING-BOTTOM: 1px; COLOR: #fff! important; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.btn A:visited {
+	DISPLAY: block; PADDING-BOTTOM: 1px; COLOR: #fff! important; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.btn A:hover {
+	DISPLAY: block; PADDING-BOTTOM: 1px; COLOR: #fff! important; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.btn A:active {
+	DISPLAY: block; PADDING-BOTTOM: 1px; COLOR: #fff! important; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+BODY#home DIV#masthead P.btn-wtg/*首页“开呐访问指南”定义开始*/ {
+	FLOAT: left; MARGIN-BOTTOM: 30px; MARGIN-LEFT: 300px
+}
+P.btn-wtg {
+	DISPLAY: block; FONT-SIZE: 1.2em; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: 330px; LINE-HEIGHT: 2; TEXT-ALIGN: center
+}
+P.btn-wtg A {
+	DISPLAY: block; COLOR: #888; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.btn-wtg A:link {
+	DISPLAY: block; COLOR: #888; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.btn-wtg A:visited {
+	DISPLAY: block; COLOR: #888; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.btn-wtg A:hover {
+	DISPLAY: block; COLOR: #e31b1e; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.btn-wtg A:active {
+	DISPLAY: block; COLOR: #888; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+/*P.btn-wtg {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-part-btm.gif) #E55A28 no-repeat 0px 100%
+}
+P.btn-wtg A {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-part-top.gif) no-repeat 0px 0px
+}*//*首页“开呐访问指南”定义结束*/ 
+BODY#home DIV#masthead P.copyright/*首页“关于开呐”定义开始*/ {
+	FLOAT: right; MARGIN-TOP: 300px; MARGIN-LEFT: auto; 
+}
+P.copyright {
+	DISPLAY: block; FONT-SIZE: 1em; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: 980px; LINE-HEIGHT: 2; TEXT-ALIGN: center; color:#bc8f8f;
+}
+P.copyright A {
+	DISPLAY: block; COLOR: #bc8f8f; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.copyright A:link {
+	DISPLAY: block; COLOR: #bc8f8f; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.copyright A:visited {
+	DISPLAY: block; COLOR: #bc8f8f; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.copyright A:hover {
+	DISPLAY: block; COLOR: #bc8f8f; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+P.copyright A:active {
+	DISPLAY: block; COLOR: #bc8f8f; LINE-HEIGHT: 2; TEXT-DECORATION: none
+}
+
+BODY#home DIV#masthead P.about/*首页“营销等导航”定义开始*/ {
+	FLOAT: right; MARGIN-TOP: 300px; MARGIN-LEFT: auto; 
+}
+P.about {
+	DISPLAY: block; FONT-SIZE: 1em; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: 980px; LINE-HEIGHT: 2; TEXT-ALIGN: center; color:#bc8f8f;
+}
+
+
+
+
+
+
+BODY.zine P.btn {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-zine-btm.gif) #505050 no-repeat 0px 100%
+}
+BODY.zine P.btn A {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-zine-top.gif) no-repeat 0px 0px
+}
+BODY.dict P.btn {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-dict-btm.gif) #A44345 no-repeat 0px 100%
+}
+BODY.dict P.btn A {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-dict-top.gif) no-repeat 0px 0px
+}
+BODY.gift P.btn {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-part-btm.gif) #E55A28 no-repeat 0px 100%
+}
+BODY.gift P.btn A {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-part-top.gif) no-repeat 0px 0px
+}
+BODY.bbs P.btn {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-child-btm.gif) #c9c9c9 no-repeat 0px 100%
+}
+BODY.bbs P.btn A {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-child-top.gif) no-repeat 0px 0px
+}
+DIV#container DIV#content P.btn-xo {
+	WIDTH: 160px
+}
+BODY.gift P.btn-xo {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-part-xo-btm.gif) #E55A28 no-repeat 0px 100%
+}
+BODY.gift P.btn-xo A {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/btn-part-xo-top.gif) no-repeat 0px 0px
+}
+DIV#site-error H1 {
+	FONT-SIZE: 2em; FLOAT: left; MARGIN-BOTTOM: 3em; OVERFLOW: hidden; WIDTH: 748px; POSITION: relative; HEIGHT: 290px
+}
+DIV#site-error H1 A {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+DIV#site-error H1 I {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+DIV#site-error H1 I {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/page-not-found.gif) no-repeat 0px 0px; LEFT: 0px; CURSOR: pointer; POSITION: absolute; TOP: 0px
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; FONT-SIZE: 0px; VISIBILITY: hidden; HEIGHT: 0px; content: " "
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+.alignLeft {
+	FLOAT: left
+}
+.alignRight {
+	FLOAT: right
+}
+.clear {
+	CLEAR: both
+}
+.cleardiv {
+	CLEAR: both; VISIBILITY: hidden; LINE-HEIGHT: 0px; HEIGHT: 0px
+}
+DIV#mainContent UL.prodThumbs {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 26px; BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/hardware-thumbnails.png) no-repeat 0px 0px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 652px; PADDING-TOP: 0px
+}
+DIV#mainContent UL.prodThumbs LI {
+	FLOAT: left; WIDTH: 124px; MARGIN-RIGHT: 52px; POSITION: relative; HEIGHT: 124px
+}
+DIV#mainContent UL.prodThumbs LI.last {
+	MARGIN-RIGHT: 0px
+}
+DIV#mainContent UL.prodThumbs LI A {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+DIV#mainContent UL.prodThumbs LI I {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+DIV#mainContent UL.prodThumbs LI I {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/hardware-thumbnails.png) no-repeat 0px 0px; LEFT: 0px; CURSOR: pointer; POSITION: absolute; TOP: 0px
+}
+DIV#mainContent UL.prodThumbs LI#leftSideThumb I {
+	BACKGROUND-POSITION: -29px 0px
+}
+DIV#mainContent UL.prodThumbs LI#frontThumb I {
+	BACKGROUND-POSITION: -204px 0px
+}
+DIV#mainContent UL.prodThumbs LI#rightSideThumb I {
+	BACKGROUND-POSITION: -381px 0px
+}
+DIV#mainContent UL.prodThumbs LI#aerialThumb I {
+	BACKGROUND-POSITION: -552px 0px
+}
+DIV#mainContent UL.prodThumbs LI#leftSideThumb A:hover I {
+	BACKGROUND-POSITION: -29px -124px
+}
+DIV#mainContent UL.prodThumbs LI#leftSideThumb A.selected I {
+	BACKGROUND-POSITION: -29px -124px
+}
+DIV#mainContent UL.prodThumbs LI#frontThumb A:hover I {
+	BACKGROUND-POSITION: -204px -124px
+}
+DIV#mainContent UL.prodThumbs LI#frontThumb A.selected I {
+	BACKGROUND-POSITION: -204px -124px
+}
+DIV#mainContent UL.prodThumbs LI#rightSideThumb A:hover I {
+	BACKGROUND-POSITION: -381px -124px
+}
+DIV#mainContent UL.prodThumbs LI#rightSideThumb A.selected I {
+	BACKGROUND-POSITION: -381px -124px
+}
+DIV#mainContent UL.prodThumbs LI#aerialThumb A:hover I {
+	BACKGROUND-POSITION: -552px -124px
+}
+DIV#mainContent UL.prodThumbs LI#aerialThumb A.selected I {
+	BACKGROUND-POSITION: -552px -124px
+}
+DIV.highlightsContent DIV {
+	DISPLAY: none
+}
+DIV.highlightsContent DIV.defaultContent {
+	DISPLAY: block
+}
+UL.callouts {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 485px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 350px
+}
+UL.callouts LI {
+	LEFT: 0px; WIDTH: 30px; POSITION: absolute; TOP: 0px; HEIGHT: 20px
+}
+UL.callouts LI A {
+	DISPLAY: block; WIDTH: 100%; TEXT-INDENT: -999px; HEIGHT: 100%
+}
+UL.callouts LI I {
+	DISPLAY: block; WIDTH: 100%; TEXT-INDENT: -999px; HEIGHT: 100%
+}
+UL.callouts LI I {
+	LEFT: 0px; CURSOR: pointer; POSITION: absolute; TOP: 0px
+}
+UL#frontViewHighlights {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/hardware_highlights_02.png) no-repeat 0px 0px
+}
+UL#frontViewHighlights LI I {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/hardware_highlights_02.png) no-repeat 0px 0px
+}
+UL#frontViewHighlights LI#front1 {
+	LEFT: 58px; TOP: 114px
+}
+UL#frontViewHighlights LI#front1 I {
+	BACKGROUND-POSITION: -58px -114px
+}
+UL#frontViewHighlights LI#front2 {
+	LEFT: 58px; TOP: 140px
+}
+UL#frontViewHighlights LI#front2 I {
+	BACKGROUND-POSITION: -58px -140px
+}
+UL#frontViewHighlights LI#front3 {
+	LEFT: 58px; TOP: 195px
+}
+UL#frontViewHighlights LI#front3 I {
+	BACKGROUND-POSITION: -58px -195px
+}
+UL#frontViewHighlights LI#front4 {
+	LEFT: 58px; TOP: 217px
+}
+UL#frontViewHighlights LI#front4 I {
+	BACKGROUND-POSITION: -58px -217px
+}
+UL#frontViewHighlights LI#front5 {
+	LEFT: 390px; TOP: 131px
+}
+UL#frontViewHighlights LI#front5 I {
+	BACKGROUND-POSITION: -390px -131px
+}
+UL#frontViewHighlights LI#front6 {
+	LEFT: 390px; TOP: 166px
+}
+UL#frontViewHighlights LI#front6 I {
+	BACKGROUND-POSITION: -390px -166px
+}
+UL#frontViewHighlights LI#front7 {
+	LEFT: 390px; TOP: 198px
+}
+UL#frontViewHighlights LI#front7 I {
+	BACKGROUND-POSITION: -390px -198px
+}
+UL#frontViewHighlights LI#front1 A:hover I {
+	BACKGROUND-POSITION: -58px -464px
+}
+UL#frontViewHighlights LI#front1 A.selected I {
+	BACKGROUND-POSITION: -58px -464px
+}
+UL#frontViewHighlights LI#front2 A:hover I {
+	BACKGROUND-POSITION: -58px -490px
+}
+UL#frontViewHighlights LI#front2 A.selected I {
+	BACKGROUND-POSITION: -58px -490px
+}
+UL#frontViewHighlights LI#front3 A:hover I {
+	BACKGROUND-POSITION: -58px -545px
+}
+UL#frontViewHighlights LI#front3 A.selected I {
+	BACKGROUND-POSITION: -58px -545px
+}
+UL#frontViewHighlights LI#front4 A:hover I {
+	BACKGROUND-POSITION: -58px -567px
+}
+UL#frontViewHighlights LI#front4 A.selected I {
+	BACKGROUND-POSITION: -58px -567px
+}
+UL#frontViewHighlights LI#front5 A:hover I {
+	BACKGROUND-POSITION: -390px -481px
+}
+UL#frontViewHighlights LI#front5 A.selected I {
+	BACKGROUND-POSITION: -390px -481px
+}
+UL#frontViewHighlights LI#front6 A:hover I {
+	BACKGROUND-POSITION: -390px -516px
+}
+UL#frontViewHighlights LI#front6 A.selected I {
+	BACKGROUND-POSITION: -390px -516px
+}
+UL#frontViewHighlights LI#front7 A:hover I {
+	BACKGROUND-POSITION: -390px -548px
+}
+UL#frontViewHighlights LI#front7 A.selected I {
+	BACKGROUND-POSITION: -390px -548px
+}
+UL#sideViewHighlights {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/hardware_highlights_03.png) no-repeat 0px 0px
+}
+UL#sideViewHighlights LI I {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/hardware_highlights_03.png) no-repeat 0px 0px
+}
+UL#sideViewHighlights LI#side1 {
+	LEFT: 54px; TOP: 116px
+}
+UL#sideViewHighlights LI#side1 I {
+	BACKGROUND-POSITION: -54px -116px
+}
+UL#sideViewHighlights LI#side2 {
+	LEFT: 54px; TOP: 166px
+}
+UL#sideViewHighlights LI#side2 I {
+	BACKGROUND-POSITION: -54px -166px
+}
+UL#sideViewHighlights LI#side3 {
+	LEFT: 54px; TOP: 185px
+}
+UL#sideViewHighlights LI#side3 I {
+	BACKGROUND-POSITION: -54px -185px
+}
+UL#sideViewHighlights LI#side4 {
+	LEFT: 54px; TOP: 251px
+}
+UL#sideViewHighlights LI#side4 I {
+	BACKGROUND-POSITION: -54px -251px
+}
+UL#sideViewHighlights LI#side5 {
+	LEFT: 377px; TOP: 206px
+}
+UL#sideViewHighlights LI#side5 I {
+	BACKGROUND-POSITION: -377px -206px
+}
+UL#sideViewHighlights LI#side1 A:hover I {
+	BACKGROUND-POSITION: -54px -466px
+}
+UL#sideViewHighlights LI#side1 A.selected I {
+	BACKGROUND-POSITION: -54px -466px
+}
+UL#sideViewHighlights LI#side2 A:hover I {
+	BACKGROUND-POSITION: -54px -516px
+}
+UL#sideViewHighlights LI#side2 A.selected I {
+	BACKGROUND-POSITION: -54px -516px
+}
+UL#sideViewHighlights LI#side3 A:hover I {
+	BACKGROUND-POSITION: -54px -535px
+}
+UL#sideViewHighlights LI#side3 A.selected I {
+	BACKGROUND-POSITION: -54px -535px
+}
+UL#sideViewHighlights LI#side4 A:hover I {
+	BACKGROUND-POSITION: -54px -601px
+}
+UL#sideViewHighlights LI#side4 A.selected I {
+	BACKGROUND-POSITION: -54px -601px
+}
+UL#sideViewHighlights LI#side5 A:hover I {
+	BACKGROUND-POSITION: -377px -556px
+}
+UL#sideViewHighlights LI#side5 A.selected I {
+	BACKGROUND-POSITION: -377px -556px
+}
+UL#aerialViewHighlights {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/hardware_highlights_04.png) no-repeat 0px 0px
+}
+UL#aerialViewHighlights LI I {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/hardware_highlights_04.png) no-repeat 0px 0px
+}
+UL#aerialViewHighlights LI#aerial1 {
+	LEFT: 55px; TOP: 265px
+}
+UL#aerialViewHighlights LI#aerial1 I {
+	BACKGROUND-POSITION: -55px -265px
+}
+UL#aerialViewHighlights LI#aerial1 A:hover I {
+	BACKGROUND-POSITION: -55px -615px
+}
+UL#aerialViewHighlights LI#aerial1 A.selected I {
+	BACKGROUND-POSITION: -55px -615px
+}
+DIV#mainContent DIV.activities {
+	FONT-SIZE: 1.4em; OVERFLOW: hidden; WIDTH: 703px; COLOR: #666; LINE-HEIGHT: 1.7
+}
+DIV#mainContent DIV.activities IMG {
+	FLOAT: left
+}
+DIV#mainContent DIV.activities H2 {
+	FLOAT: right; WIDTH: 218px
+}
+DIV#mainContent DIV.activities P {
+	FLOAT: right; WIDTH: 218px
+}
+DIV#mainContent DIV.activities H2 {
+	MARGIN: 0px
+}
+UL.activityIcons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 702px; PADDING-TOP: 0px
+}
+UL.activityIcons LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; MARGIN-BOTTOM: 18px; PADDING-BOTTOM: 0px; WIDTH: 46px; MARGIN-RIGHT: 18px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 46px
+}
+UL.activityIcons LI.last {
+	MARGIN-RIGHT: 0px
+}
+UL.activityIcons LI A {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+UL.activityIcons LI I {
+	DISPLAY: block; WIDTH: 100%; HEIGHT: 100%
+}
+UL.activityIcons LI I {
+	BACKGROUND: url(https://web.archive.org/web/2010/http://www.openaa.com/images/dict/software_activities_icons.png) no-repeat 0px 0px; LEFT: 0px; CURSOR: pointer; POSITION: absolute; TOP: 0px
+}
+UL.activityIcons LI#icon4 {
+	WIDTH: 56px; MARGIN-RIGHT: 8px
+}
+UL.activityIcons LI#icon32 {
+	WIDTH: 56px; MARGIN-RIGHT: 8px
+}
+UL.activityIcons LI#icon1 I {
+	BACKGROUND-POSITION: -18px -18px
+}
+UL.activityIcons LI#icon2 I {
+	BACKGROUND-POSITION: -82px -18px
+}
+UL.activityIcons LI#icon3 I {
+	BACKGROUND-POSITION: -146px -18px
+}
+UL.activityIcons LI#icon4 I {
+	BACKGROUND-POSITION: -210px -18px
+}
+UL.activityIcons LI#icon5 I {
+	BACKGROUND-POSITION: -274px -18px
+}
+UL.activityIcons LI#icon6 I {
+	BACKGROUND-POSITION: -338px -18px
+}
+UL.activityIcons LI#icon7 I {
+	BACKGROUND-POSITION: -402px -18px
+}
+UL.activityIcons LI#icon8 I {
+	BACKGROUND-POSITION: -466px -18px
+}
+UL.activityIcons LI#icon9 I {
+	BACKGROUND-POSITION: -530px -18px
+}
+UL.activityIcons LI#icon10 I {
+	BACKGROUND-POSITION: -594px -18px
+}
+UL.activityIcons LI#icon11 I {
+	BACKGROUND-POSITION: -658px -18px
+}
+UL.activityIcons LI#icon12 I {
+	BACKGROUND-POSITION: -722px -18px
+}
+UL.activityIcons LI#icon13 I {
+	BACKGROUND-POSITION: -786px -18px
+}
+UL.activityIcons LI#icon14 I {
+	BACKGROUND-POSITION: -850px -18px
+}
+UL.activityIcons LI#icon15 I {
+	BACKGROUND-POSITION: -914px -18px
+}
+UL.activityIcons LI#icon16 I {
+	BACKGROUND-POSITION: -978px -18px
+}
+UL.activityIcons LI#icon17 I {
+	BACKGROUND-POSITION: -1042px -18px
+}
+UL.activityIcons LI#icon18 I {
+	BACKGROUND-POSITION: -1106px -18px
+}
+UL.activityIcons LI#icon19 I {
+	BACKGROUND-POSITION: -1170px -18px
+}
+UL.activityIcons LI#icon20 I {
+	BACKGROUND-POSITION: -1234px -18px
+}
+UL.activityIcons LI#icon21 I {
+	BACKGROUND-POSITION: -1298px -18px
+}
+UL.activityIcons LI#icon22 I {
+	BACKGROUND-POSITION: -1362px -18px
+}
+UL.activityIcons LI#icon23 I {
+	BACKGROUND-POSITION: -1426px -18px
+}
+UL.activityIcons LI#icon24 I {
+	BACKGROUND-POSITION: -1490px -18px
+}
+UL.activityIcons LI#icon25 I {
+	BACKGROUND-POSITION: -1554px -18px
+}
+UL.activityIcons LI#icon26 I {
+	BACKGROUND-POSITION: -1618px -18px
+}
+UL.activityIcons LI#icon27 I {
+	BACKGROUND-POSITION: -1682px -18px
+}
+UL.activityIcons LI#icon28 I {
+	BACKGROUND-POSITION: -1746px -18px
+}
+UL.activityIcons LI#icon29 I {
+	BACKGROUND-POSITION: -1810px -18px
+}
+UL.activityIcons LI#icon30 I {
+	BACKGROUND-POSITION: -1874px -18px
+}
+UL.activityIcons LI#icon31 I {
+	BACKGROUND-POSITION: -1938px -18px
+}
+UL.activityIcons LI#icon32 I {
+	BACKGROUND-POSITION: -2002px -18px
+}
+UL.activityIcons LI#icon33 I {
+	BACKGROUND-POSITION: -2066px -18px
+}
+UL.activityIcons LI#icon1 A:hover I {
+	BACKGROUND-POSITION: -18px -100px
+}
+UL.activityIcons LI#icon1 A.selected I {
+	BACKGROUND-POSITION: -18px -100px
+}
+UL.activityIcons LI#icon2 A:hover I {
+	BACKGROUND-POSITION: -82px -100px
+}
+UL.activityIcons LI#icon2 A.selected I {
+	BACKGROUND-POSITION: -82px -100px
+}
+UL.activityIcons LI#icon3 A:hover I {
+	BACKGROUND-POSITION: -146px -100px
+}
+UL.activityIcons LI#icon3 A.selected I {
+	BACKGROUND-POSITION: -146px -100px
+}
+UL.activityIcons LI#icon4 A:hover I {
+	BACKGROUND-POSITION: -210px -100px
+}
+UL.activityIcons LI#icon4 A.selected I {
+	BACKGROUND-POSITION: -210px -100px
+}
+UL.activityIcons LI#icon5 A:hover I {
+	BACKGROUND-POSITION: -274px -100px
+}
+UL.activityIcons LI#icon5 A.selected I {
+	BACKGROUND-POSITION: -274px -100px
+}
+UL.activityIcons LI#icon6 A:hover I {
+	BACKGROUND-POSITION: -338px -100px
+}
+UL.activityIcons LI#icon6 A.selected I {
+	BACKGROUND-POSITION: -338px -100px
+}
+UL.activityIcons LI#icon7 A:hover I {
+	BACKGROUND-POSITION: -402px -100px
+}
+UL.activityIcons LI#icon7 A.selected I {
+	BACKGROUND-POSITION: -402px -100px
+}
+UL.activityIcons LI#icon8 A:hover I {
+	BACKGROUND-POSITION: -466px -100px
+}
+UL.activityIcons LI#icon8 A.selected I {
+	BACKGROUND-POSITION: -466px -100px
+}
+UL.activityIcons LI#icon9 A:hover I {
+	BACKGROUND-POSITION: -530px -100px
+}
+UL.activityIcons LI#icon9 A.selected I {
+	BACKGROUND-POSITION: -530px -100px
+}
+UL.activityIcons LI#icon10 A:hover I {
+	BACKGROUND-POSITION: -594px -100px
+}
+UL.activityIcons LI#icon10 A.selected I {
+	BACKGROUND-POSITION: -594px -100px
+}
+UL.activityIcons LI#icon11 A:hover I {
+	BACKGROUND-POSITION: -658px -100px
+}
+UL.activityIcons LI#icon11 A.selected I {
+	BACKGROUND-POSITION: -658px -100px
+}
+UL.activityIcons LI#icon12 A:hover I {
+	BACKGROUND-POSITION: -722px -100px
+}
+UL.activityIcons LI#icon12 A.selected I {
+	BACKGROUND-POSITION: -722px -100px
+}
+UL.activityIcons LI#icon13 A:hover I {
+	BACKGROUND-POSITION: -786px -100px
+}
+UL.activityIcons LI#icon13 A.selected I {
+	BACKGROUND-POSITION: -786px -100px
+}
+UL.activityIcons LI#icon14 A:hover I {
+	BACKGROUND-POSITION: -850px -100px
+}
+UL.activityIcons LI#icon14 A.selected I {
+	BACKGROUND-POSITION: -850px -100px
+}
+UL.activityIcons LI#icon15 A:hover I {
+	BACKGROUND-POSITION: -914px -100px
+}
+UL.activityIcons LI#icon15 A.selected I {
+	BACKGROUND-POSITION: -914px -100px
+}
+UL.activityIcons LI#icon16 A:hover I {
+	BACKGROUND-POSITION: -978px -100px
+}
+UL.activityIcons LI#icon16 A.selected I {
+	BACKGROUND-POSITION: -978px -100px
+}
+UL.activityIcons LI#icon17 A:hover I {
+	BACKGROUND-POSITION: -1042px -100px
+}
+UL.activityIcons LI#icon17 A.selected I {
+	BACKGROUND-POSITION: -1042px -100px
+}
+UL.activityIcons LI#icon18 A:hover I {
+	BACKGROUND-POSITION: -1106px -100px
+}
+UL.activityIcons LI#icon18 A.selected I {
+	BACKGROUND-POSITION: -1106px -100px
+}
+UL.activityIcons LI#icon19 A:hover I {
+	BACKGROUND-POSITION: -1170px -100px
+}
+UL.activityIcons LI#icon19 A.selected I {
+	BACKGROUND-POSITION: -1170px -100px
+}
+UL.activityIcons LI#icon20 A:hover I {
+	BACKGROUND-POSITION: -1234px -100px
+}
+UL.activityIcons LI#icon20 A.selected I {
+	BACKGROUND-POSITION: -1234px -100px
+}
+UL.activityIcons LI#icon21 A:hover I {
+	BACKGROUND-POSITION: -1298px -100px
+}
+UL.activityIcons LI#icon21 A.selected I {
+	BACKGROUND-POSITION: -1298px -100px
+}
+UL.activityIcons LI#icon22 A:hover I {
+	BACKGROUND-POSITION: -1362px -100px
+}
+UL.activityIcons LI#icon22 A.selected I {
+	BACKGROUND-POSITION: -1362px -100px
+}
+UL.activityIcons LI#icon23 A:hover I {
+	BACKGROUND-POSITION: -1426px -100px
+}
+UL.activityIcons LI#icon23 A.selected I {
+	BACKGROUND-POSITION: -1426px -100px
+}
+UL.activityIcons LI#icon24 A:hover I {
+	BACKGROUND-POSITION: -1490px -100px
+}
+UL.activityIcons LI#icon24 A.selected I {
+	BACKGROUND-POSITION: -1490px -100px
+}
+UL.activityIcons LI#icon25 A:hover I {
+	BACKGROUND-POSITION: -1554px -100px
+}
+UL.activityIcons LI#icon25 A.selected I {
+	BACKGROUND-POSITION: -1554px -100px
+}
+UL.activityIcons LI#icon26 A:hover I {
+	BACKGROUND-POSITION: -1618px -100px
+}
+UL.activityIcons LI#icon26 A.selected I {
+	BACKGROUND-POSITION: -1618px -100px
+}
+UL.activityIcons LI#icon27 A:hover I {
+	BACKGROUND-POSITION: -1682px -100px
+}
+UL.activityIcons LI#icon27 A.selected I {
+	BACKGROUND-POSITION: -1682px -100px
+}
+UL.activityIcons LI#icon28 A:hover I {
+	BACKGROUND-POSITION: -1746px -100px
+}
+UL.activityIcons LI#icon28 A.selected I {
+	BACKGROUND-POSITION: -1746px -100px
+}
+UL.activityIcons LI#icon29 A:hover I {
+	BACKGROUND-POSITION: -1810px -100px
+}
+UL.activityIcons LI#icon29 A.selected I {
+	BACKGROUND-POSITION: -1810px -100px
+}
+UL.activityIcons LI#icon30 A:hover I {
+	BACKGROUND-POSITION: -1874px -100px
+}
+UL.activityIcons LI#icon30 A.selected I {
+	BACKGROUND-POSITION: -1874px -100px
+}
+UL.activityIcons LI#icon31 A:hover I {
+	BACKGROUND-POSITION: -1938px -100px
+}
+UL.activityIcons LI#icon31 A.selected I {
+	BACKGROUND-POSITION: -1938px -100px
+}
+UL.activityIcons LI#icon32 A:hover I {
+	BACKGROUND-POSITION: -2002px -100px
+}
+UL.activityIcons LI#icon32 A.selected I {
+	BACKGROUND-POSITION: -2002px -100px
+}
+UL.activityIcons LI#icon33 A:hover I {
+	BACKGROUND-POSITION: -2066px -100px
+}
+UL.activityIcons LI#icon33 A.selected I {
+	BACKGROUND-POSITION: -2066px -100px
+}
+/* CSS Document */

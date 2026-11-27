@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>开呐网新手指南 让您一分钟内玩转开呐</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META 
+content="开呐网各个功能的使用介绍" 
+name=Description>
+<META 
+content="开呐功能介绍,如何看杂志,如何查字典,如何换礼品,如何逛论坛" 
+name=keywords>
+<link 
+href="https://web.archive.org/web/2010/http://www.openaa.com/help/header.css" type=text/css rel=stylesheet>
+<style type="text/css">
+body{
+color: #595959;/*内容卡字体属性*/
+font-size: 14px;
+font-family: verdana;
+width: 960px;
+height: auto;
+}
+a{
+color: #595959;/*选项卡字体属性*/
+display: block;
+text-decoration: none;
+line-height: 30px;
+font-size:14px;
+}
+a:hover{
+background: #fff;
+}
+.tab h3{
+color: #333;
+padding: 3px;
+font-size: 12px;
+margin: 0 1px 1px 0;
+text-align: center;
+background: #ffffff;/*选项卡最内围框背景色*/
+}
+h3{
+margin: 0;
+padding: 5px;
+font-size: 14px;/*每一个内容卡的标题部分*/
+}
+p{
+margin: 0;
+padding: 5px;
+line-height: 1.5em;
+}
+P.copyright {
+	DISPLAY: block; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: 980px; LINE-HEIGHT: 2; TEXT-ALIGN: center; color:#bc8f8f;
+}
+#wrapper{
+width: 1100px;/*整个（包括选项卡及内容卡）界面宽度*/
+margin: 0px 10px;
+padding-top:50px;
+padding-left:20px;
+height: inherit;
+}
+#left{
+float: left;
+width: 150px;/*选项卡宽度*/
+height: 20px;
+}
+#right{
+float: right;
+width: 950px;/*内容卡宽度*/
+}
+.tab{
+color: #595959;
+/*padding: 3px;
+margin: 0 1px 1px 0;*/
+text-align: center;
+background: #009999;/*选项卡最外围框背景色*/
+}
+.stretcher{
+background: #FFF;/*内容卡背景色*/
+}
+</style>
+<script type="text/javascript" src="https://web.archive.org/web/2010/http://www.openaa.com/help/scripts/prototype.lite.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/2010/http://www.openaa.com/help/scripts/moo.fx.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/2010/http://www.openaa.com/help/scripts/moo.fx.pack.js"></script>
+<script type="text/javascript">
+//the main function, call to the effect object
+/*
+function init(){
+	var stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+	var toggles = document.getElementsByClassName('tab'); //h3s where I click on
+	//accordion effect
+	var myAccordion = new fx.Accordion(
+		toggles, stretchers, {opacity: false,  height: true, duration: 400, transition: fx.sineInOut}
+	);
+	//hash functions
+	var found = true; // if true, accordion starts closed on load else if false first one starts open on load
+	toggles.each(function(h3, i){
+	var div = Element.find(h3, 'nextSibling'); //element.find is located in prototype.lite
+		if (window.location.href.indexOf(h3.title) > 0) {
+			myAccordion.showThisHideOpen(div);
+			found = true;
+		}
+	});
+	if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+}
+*/
+
+function init(){
+		
+		var stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+		var toggles = document.getElementsByClassName('tab'); //h3s where I click on
+
+		//accordion effect
+		var myAccordion = new fx.Accordion(
+			toggles, stretchers, {opacity: true, height: true, duration: 400}
+		);
+
+		//hash functions
+		var found = false;
+		toggles.each(function(h3, i){
+			var div = Element.find(h3, 'nextSibling'); //element.find is located in prototype.lite
+			if (window.location.href.indexOf(h3.title) > 0) {
+				myAccordion.showThisHideOpen(div);
+				found = true;
+			}
+		});
+		if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+	}
+
+</script>
+<script type=text/JavaScript>
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+
+</head>
+
+<body>
+<DIV id=main>
+<table><td>
+<SCRIPT src="https://web.archive.org/web/2010/http://www.openaa.com/help/scripts/top.js"></SCRIPT></DIV>
+</td></table>
+<div id="wrapper">	
+		<div id="left">
+			<div class="tab">
+				<h3 title="欢迎访问开呐"><a href="javascript:;">欢迎访问开呐网</a></h3>
+			</div>
+			<div class="tab">
+				<h3 title="看杂志功能的使用介绍"><a href="javascript:;">"看杂志"</a></h3>
+			</div>
+			<div class="tab">
+				<h3 title="查字典功能的使用介绍"><a href="javascript:;">"查字典"</a></h3>
+			</div>
+			<div class="tab">
+				<h3 title="逛论坛功能的使用介绍"><a href="javascript:;">"逛论坛"</a></h3>
+			</div>
+			<div class="tab">
+				<h3 title="试用中心功能的使用介绍"><a href="javascript:;">"试用中心"</a></h3>	
+			</div>
+			<div class="tab">
+				<h3 title="开呐成仙计划介绍"><a href="javascript:;">"成仙计划"</a></h3>	
+			</div>
+			<br />
+		</div>	
+	<div id="right">
+	<div id="content">
+		<div class="stretcher"><!--帮助菜单欢迎界面-->
+        <h3><span style="color:#e31b1e">欢迎光临开呐进入您的"随心随地供享个人体验"之旅!</span></h3>
+		<IMG style="MARGIN: 5px" height=400 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/welcome01.gif" width=400 align=right></img>
+        <div><span style=" line-height:1.5em; font-size:12px">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开呐网首创全新的第三方体验检索模式，在使用者之间搭建了一个灵活的“（提）供（分）享体验”平台，并且将精华内容浓缩在配套免费电子杂志中，让使用者在最短的时间内精确获得最有价值的信息。在开呐——您可以:</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.<span style="color:#e31b1e">阅读每期《开呐》电子周刊。</span>本杂志由开呐网从互联网海量数据中经过精心筛选、整理而成，是一本集合了真实的产品个人使用体验的免费刊物。<span style="color:#006699">点击左侧“看杂志”可查阅本功能的详细操作说明！</span></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.<span style="color:#e31b1e">精确查询您感兴趣产品的第三方使用体验。</span>在购物前往往想要看看别人对这件单品的评价如何，购物字典提供字母索引排序，可以让您精确的找到您感兴趣的单品并获得最有价值的信息。<span style="color:#006699">点击左侧“查字典”可查阅本功能的详细操作说明！</span></p>
+	    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.<span style="color:#e31b1e">提供与分享您及他人的个人体验。</span>开呐开放了BBS讨论区功能，供网站使用者分享信息，网站会不定期开展会员专享的各类活动及服务，以丰富大家的访问体验。<span style="color:#006699">点击左侧“逛论坛”可查阅本功能的详细操作说明！</span></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.<span style="color:#e31b1e">得到口碑单品的试用机会。</span>为了让开呐的第三方体验数据更加真实与丰富，网站特别开放了单品试用中心，不定期为会员提供免费的试用机会，注意本功能为会员专享。<span style="color:#006699">点击左侧“试用中心”可查阅本功能的详细操作说明！</span></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#009999; font-size: 14px; line-height: 30px;"><b>也许您在访问中会感到开呐的信息容量还不够大不够全，相信我们，开呐是时时刻刻在不断成长的，我们每时每刻都在完善数据库，给开呐一点耐心和信心，共同鉴证开呐的成长吧！</b></span></p>
+	</span></div></div>
+
+		<div class="stretcher"><!--“看杂志”操作说明-->
+		 <h3>网站“看杂志”功能操作说明</h3>
+		       <TABLE cellSpacing=0 cellPadding=10 width="100%" border=0>
+        <TBODY>
+		 <TR>
+	       <TD><!--左侧第一幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=139 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/zine/hzine01.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>进入“看杂志”页面：</span></p>
+		<p>点击首页左一蓝色易拉罐图标可进入“看杂志”主页面</p>
+		<p><span style="font-size:12px;">（注：想要进入“看杂志”主页面还可从各页面顶部的导航菜单进入）</span></p>
+            </span></div>
+			</TD></TR>	    
+       	  <TD vAlign=top width=50% rowSpan=1><!--左侧第二幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=169 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/zine/hzine02.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>阅读最新一期杂志：</span></p>
+		<p>进入主页面后即可以看到最新一期的《开呐》电子周刊</p>
+		<p>点击缩略图右侧的目录可直接进入您感兴趣的杂志页面进行阅读</p>
+            </span></div></TD>	    
+		<tr><TD vAlign=top width=50% rowSpan=1><!--左侧第三幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=144 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/zine/hzine03.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>阅读往期杂志：</span></p>
+		<p>主页面左侧为按照时间排列的过刊索引选项卡</p>
+		<p>点击进入相应月份中发布的杂志列表及刊号</p>
+		<p>点击缩略图右侧的目录可直接进入您感兴趣的杂志页面进行阅读</p>
+            </span></div></TD></tr>
+			</TBODY></TABLE>
+	</div>
+	
+		<div class="stretcher"><!--“查字典”操作说明-->
+		 <h3>网站“查字典”功能操作说明</h3>
+		       <TABLE cellSpacing=0 cellPadding=10 width="100%" border=0>
+        <TBODY>
+		 <TR>
+	       <TD><!--左侧第一幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=139 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/dict/hdict01.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>进入“查字典”页面：</span></p>
+		<p>点击首页左二白色易拉罐图标可进入“查字典”主页面</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：想要进入“查字典”主页面还可从各页面顶部的导航菜单进入）</span></p>
+            </span></div>
+			</TD></TR>	    
+       	  <TD vAlign=top width=50% rowSpan=1><!--左侧第二幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=144 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/dict/hdict02.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>了解使用帮助：</span></p>
+		<p>进入主页面后即可以看到购物字典的使用帮助</p>
+		<p>帮助中告诉访问者如何更好更快的利用开呐网获得有用的信息</p>
+            </span></div></TD>	    
+		<tr><TD vAlign=top width=50% rowSpan=1><!--左侧第三幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=173 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/dict/hdict03.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>按照字母索引找到所查单品的品牌：</span></p>
+		<p>主页面左侧为按照品牌名称首字母排列的索引选项卡</p>
+		<p>点击进入相应字母开头的品牌列表，分为综合、身体、头部以及男用四类</p>
+		<p>点击品牌名称可直接进入该品牌下的单品列表页面</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：开呐是按照品牌的英文名称排序，例如娇韵诗『Clarins』应在字母C中查找）</span></p>
+            </span></div></TD></tr>
+       	  <TD vAlign=top width=50% rowSpan=1><!--左侧第四幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=255 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/dict/hdict04.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>找到所查单品：</span></p>
+		<p>品牌页面会尽量提供品牌的官方网站地址</p>
+		<p>在单品目录中找到想要查找的单品点击进入单品词条页面</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：此功能无需注册即可正常使用）</span></p>
+            </span></div></TD>	    
+		<tr><TD vAlign=top width=50% rowSpan=1><!--左侧第五幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=186 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/dict/hdict05.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>查询单品信息：</span></p>
+		<p>单品词条页面提供了单品图片、宣传介绍以及参考价格</p>
+		<p>查看单品词条页面的回复获得他人对此单品的评价与心得</p>
+		<p>“《开呐》出处”列出了所有与涉及到该单品的杂志文章及期号</p>
+		<p>直接点击相应文章题目即可跳转阅读</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：此功能无需注册即可正常使用，单品越热门，相关文章越多）</span></p>
+            </span></div></TD></tr>
+		<tr><TD vAlign=top width=50% rowSpan=1><!--左侧第六幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=156 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/dict/hdict06.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>丰富词条内容：</span></p>
+		<p>在文章中找到所查单品的心得即可获得有用信息</p>
+		<p>如果对此单品有个人使用体验可点击“我来评两句......”</p>
+		<p>返回单品词条页面在回复框输入自己的体验让更多人供享</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：此功能无需注册即可正常使用，词条越丰富，参考价值越高）</span></p>
+            </span></div></TD></tr>
+			</TBODY></TABLE>
+	</div>
+	
+		<div class="stretcher"><!--“逛论坛”操作说明-->
+		 <h3>网站“逛论坛”功能操作说明</h3>
+		       <TABLE cellSpacing=0 cellPadding=10 width="100%" border=0>
+        <TBODY>
+		 <TR>
+	       <TD><!--左侧第一幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=139 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/bbs/hbbs01.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>进入“逛论坛”页面：</span></p>
+		<p>点击首页左三绿色易拉罐图标可进入“逛论坛”主页面</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：想要进入“逛论坛”主页面还可从各页面顶部的导航菜单进入）</span></p>
+            </span></div>
+			</TD></TR>	    
+       	  <TD vAlign=top width=50% rowSpan=1><!--左侧第二幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=189 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/bbs/hbbs02.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>论坛主界面：</span></p>
+		<p>主界面右上角为登录、注册入口；登陆后为账户操作菜单；</p>
+		<p>导航菜单除可进入其他网站主要功能外，还有帖子搜索以及论坛专门帮助入口；</p>
+		<p>论坛主要分四个讨论区，点击进入自己感兴趣的讨论区参与讨论；</p>
+		<p>网站事务区发布主题是需要经过审核的；</p>		
+            </span></div></TD>	    
+		<tr><TD vAlign=top width=50% rowSpan=1><!--左侧第三幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=139 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/bbs/hbbs03.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>执行论坛任务：</span></p>
+		<p>论坛任务是会员获得O币的主要途径；</p>
+		<p>论坛任务有多种类别，会员可根据自己的情况分别申请；</p>
+		<p>有些任务是有时间限制的；</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：一定要先申请任务成功后再执行，否则执行无效。）</span></p>
+            </span></div></TD></tr>
+       	  <TD vAlign=top width=50% rowSpan=1><!--左侧第四幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=151 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/bbs/hbbs04.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>查询论坛统计：</span></p>
+		<p>论坛主页面右下角可进入“论坛统计”数据查询页面</p>
+		<p>各排行榜、会员情况都可以查询到</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：此功能每隔固定时间刷新一次，所以会有时间延迟）</span></p>
+            </span></div></TD>	    
+		<tr><TD vAlign=top width=50% rowSpan=1><!--左侧第五幅图片+文字-->
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><a href="../bbs/faq.html" target="_blank"><u>更多论坛操作说明可点击</u></a></p>
+            </span></div></TD></tr>
+			</TBODY></TABLE>
+	</div>
+		
+		<div class="stretcher"><!--“试用中心”操作说明-->
+		 <h3>网站“试用中心”功能操作说明</h3>
+		       <TABLE cellSpacing=0 cellPadding=10 width="100%" border=0>
+        <TBODY>
+		 <TR>
+	       <TD><!--左侧第一幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=139 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/gift/hgift01.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>进入“试用中心”页面：</span></p>
+		<p>点击首页右一橙色易拉罐图标可进入“试用中心”主页面</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：想要进入“试用中心”主页面还可从各页面顶部的导航菜单进入）</span></p>
+            </span></div>
+			</TD></TR>	    
+       	  <TD vAlign=top width=50% rowSpan=1><!--左侧第二幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=200 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/gift/hgift02.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>选择感兴趣单品：</span></p>
+		<p>进入主页面后即可以看到所有可供申请的试用单品</p>
+		<p>选择感兴趣的单品进入申请页面</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：每件单品的申请条件都不一样，不够条件无法申请）</span></p>
+            </span></div></TD>	    
+		<tr><TD vAlign=top width=50% rowSpan=1><!--左侧第三幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=236 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/gift/hgift03.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>查看单品详情：</span></p>
+		<p>单品详情页面列出了单品的简介、使用期限等必要说明</p>
+		<p>会员进入后亦可以看到自己是否符合申请条件</p>
+		<p>以及是否具有足够的O币来申请相应单品</p>
+		<p>确定各方面条件都满足后填写详细资料点击申请</p>
+		<p>会员每人每月仅有一次试用机会</p>
+		<p>申请成功后月内其他申请就不会被审核通过</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：管理员审核通过后方视为申请成功）</span></p>
+            </span></div></TD></tr>
+       	  <TD vAlign=top width=50% rowSpan=1><!--左侧第四幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=144 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/gift/hgift04.png" width=350 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:14px">
+		<p><span style="color:#009999";>反馈试用报告：</span></p>
+		<p>每次申请成功一件试用单品后</p>
+		<p>需要在“供享体验－个人护理”讨论区发表反馈试用报告</p>
+		<p><span style="font-size:12px; color:#e31b1e;">（注：如果申请成功后没有反馈试用报告，下次试用申请将不予审核通过）</span></p>
+            </span></div></TD>	    
+			</TBODY></TABLE>
+	</div>
+	
+		<div class="stretcher"><!--“成仙计划”说明-->
+		<IMG style="MARGIN: 5px" height=500 src="https://web.archive.org/web/2010/http://www.openaa.com/help/images/fairy/fairy01.png" width=700 align=left></img>
+	</div>
+	
+	<div class="stretcher"><!--2009年05月选项卡内容-->
+		 <h3>《开呐》2009年03月电子周刊发布列表【第11～14期】</h3>
+      <TABLE cellSpacing=0 cellPadding=10 width="100%" border=0>
+        <TBODY>
+		 <TR>
+	       <TD><!--左侧第一幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=150 src="https://web.archive.org/web/2010/http://www.openaa.com/help/0011/image/0011cover.jpg" width=228 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:12px">
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0011/foreword.htm" target="_blank">卷首乱弹：放下石头</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0011/face01_01.htm" target="_blank">雅诗兰黛鲜活营养精华水真实口碑</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0011/face02_01.htm" target="_blank">雅芳琉璃光彩唇膏评测</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0011/body01_01.htm" target="_blank">露华浓美甲器试用报告</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0011/head01_01.htm" target="_blank">清扬去屑洗发露多效水润养护型真实口碑</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0011/man01_01.htm" target="_blank">碧柔男士洗面乳真实口碑</a></p>
+            </span></div></TD>	    
+		<TD vAlign=top width=50% rowSpan=1><!--右侧第一幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=150 src="https://web.archive.org/web/2010/http://www.openaa.com/help/0008/image/0008cover.jpg" width=231 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:12px">
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0008/foreword.htm" target="_blank">卷首乱弹：上帝只掌握一半</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0008/face01_01.htm" target="_blank">Milky_e单品大点评之：精华篇</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0008/face02_01.htm" target="_blank">家美乐黑头导出液深度评测报告</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0008/body01_01.htm" target="_blank">四款身体润肤乳橫向对比评测</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0008/head01_01.htm" target="_blank">护法狂人单品点评之：平价篇</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0008/man01_01.htm" target="_blank">5款男士护理液对比评测</a></p>
+            </span></div></TD></tr>
+       	  <TD vAlign=top width=50% rowSpan=1><!--左侧第二幅图片+文字-->
+		   <IMG style="MARGIN: 5px" height=150 src="https://web.archive.org/web/2010/http://www.openaa.com/help/0009/image/0009cover.jpg" width=231 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:12px">
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0009/foreword.htm" target="_blank">卷首乱弹：成功的秘诀</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0009/face01_01.htm" target="_blank">Milky_e单品大点评之：面膜篇</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0009/face02_01.htm" target="_blank">6款平民补水保湿面膜大考验</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0009/body01_01.htm" target="_blank">露华浓蒸面器试用报告</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0009/head01_01.htm" target="_blank">8款免洗护发单品公正点评</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0009/man01_01.htm" target="_blank">四款运动饮料橫向评测</a></p>
+            </span></div></TD>	    
+	     <TD vAlign=top width=50% rowSpan=1><!--右侧第二幅图片+文字-->
+		  <IMG style="MARGIN: 5px" height=150 src="https://web.archive.org/web/2010/http://www.openaa.com/help/0010/image/0010cover.jpg" width=231 align=left></img>
+        <div><span style=" line-height:1.2em; font-size:12px">
+		<p><a href="../zine/0010/foreword.htm" target="_blank">卷首乱弹：心灵的轻松</a></p>
+		<p><a href="../zine/0010/face01_01.htm" target="_blank">Milky_e单品大点评之：妆前乳篇</a></p>
+		<p><a href="../zine/0010/face02_01.htm" target="_blank">8款美白晚霜綜合评荐</a></p>
+		<p><a href="https://web.archive.org/web/2010/http://www.openaa.com/zine/0010/body01_01.htm" target="_blank">妮维雅弹力塑身凝露试用报告</a></p>
+		<p><a href="../zine/0010/head01_01.htm" target="_blank">美涛丰盈造型弹力素真实口碑</a></p>
+		<p><a href="../zine/0010/man01_01.htm" target="_blank">欧莱雅男士劲能醒肤露真实口碑</a></p>
+            </span></div></TD>
+			</TBODY></TABLE>
+	</div>
+		
+		<div class="stretcher">
+		<h3>LAST!?  Fine...Whatever...I Didn't Want To Be First Anyway.</h3>
+		<p>I'm the third and final box, but I don't have to be.  If you want me just add more its really that simple.</p>
+		<p>Suspendisse accumsan velit at dui tristique consectetuer. Quisque vitae felis ac arcu dignissim facilisis. Quisque ullamcorper. Cras molestie, elit vel blandit mattis, eros metus tempus tortor, id lobortis sem nunc eget dolor. Nullam dui. Aenean justo. Curabitur ullamcorper, libero eu faucibus ultricies, ipsum arcu interdum tellus, eget tempus augue mauris nec purus. Donec a pede nec tortor venenatis bibendum. Nunc quis erat ac augue rhoncus dictum. Nullam id augue at augue iaculis posuere. Nulla volutpat facilisis quam.</p>
+	</div>
+
+		</div>
+	</div>
+</div>
+<table><td>
+<p class="copyright"><SCRIPT src="https://web.archive.org/web/2010/http://www.openaa.com/help/scripts/copyright.js"></SCRIPT>
+<script src="http://s11.cnzz.com/stat.php?id=1190115&web_id=1190115&show=pic" language="JavaScript" charset="utf-8"></script></p>
+
+	<script type="text/javascript">
+		Element.cleanWhitespace('content');
+		init();
+	</script>
+</td></table></body>
+</html>
+

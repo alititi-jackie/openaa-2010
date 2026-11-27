@@ -1,0 +1,1 @@
+document.write('鲁ICP备09000247号 &copy;2008-2009 openaa.com All Right Reserved');// JavaScript Document
